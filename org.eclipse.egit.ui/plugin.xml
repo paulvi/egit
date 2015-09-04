@@ -5762,6 +5762,14 @@
             id="org.eclipse.egit.ui.commitEditor"
             name="%CommitEditor.name">
       </editor>
+      <editor
+            id="org.eclipse.egit.ui.editor.GitFileEditor"
+            name="%GitFileEditor.name"
+            class="org.eclipse.ui.editors.text.TextEditor"
+            default="true"
+            extensions="gitignore,gitmodules,gitattributes"
+            icon="icons/git16x16.png">
+      </editor>
    </extension>
    <extension
          point="org.eclipse.ui.editors.templates">
