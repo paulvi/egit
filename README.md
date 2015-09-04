@@ -121,7 +121,7 @@ features:
 Missing Features
 ----------------
 
-- gitattributes support
+- [Bug 342372 - support gitattributes](https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372)
 
   In particular CRLF conversion is not yet fully implemented.
 
